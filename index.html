@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="style.css">
+        <title>電卓</title>
+    </head>
+    <body>
+      <div class="input">
+        <h3>電卓</h3>
+        <div class="calculation"></div>
+        <input />
+      </div>
+      <div>
+        <button onclick="update('')">AC</button>
+        <button onclick="operater('%')">%</button>
+        <button onclick="operater('/')">÷</button>
+        <button onclick="operater('*')">×</button>
+        <button onclick="operater('+')">+</button>
+        <button onclick="operater('-')">-</button>
+        <button onclick="append('7')">7</button>
+        <button onclick="append('8')">8</button>
+        <button onclick="append('9')">9</button>
+        <button onclick="append('4')">4</button>
+        <button onclick="append('5')">5</button>
+        <button onclick="append('6')">6</button>
+        <button onclick="append('1')">1</button>
+        <button onclick="append('2')">2</button>
+        <button onclick="append('3')">3</button>
+        <button onclick="append('0')">0</button>
+        <button onclick="operater('.')">.</button>
+        <button onclick="del('0')">delete</button>
+        <button onclick="calc()">=</button>
+      </div>
+      <script src="main.js"></script>
+    </body>
+  </html>
+  
+  
